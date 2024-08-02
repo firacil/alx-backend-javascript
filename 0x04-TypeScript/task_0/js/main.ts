@@ -35,7 +35,7 @@ export const displayStudents = (students: Array<Student>): void => {
       bodyRow.insertAdjacentHTML('beforeend', `<td>${student.firstName}</td>`);
       bodyRow.insertAdjacentHTML('beforeend', `<td>${student.location}</td>`);
       tableBody.insertAdjacentElement('beforeend', bodyRow);
-    }
+    };
   
     table.insertAdjacentElement('beforeend', tableHead);
     table.insertAdjacentElement('beforeend', tableBody);
