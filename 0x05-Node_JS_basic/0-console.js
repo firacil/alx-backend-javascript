@@ -1,7 +1,7 @@
 #!/usr/bin/node
 // prints in stdout the string argument
 
-const displayMessage = (message) => {
+function displayMessage(message){
 	console.log(message);
 };
 
